@@ -1,0 +1,21 @@
+:root {
+    --sto-red: #ba1826;
+    --sto-navy: #18232f;
+}
+
+body {
+    background: #f5f7fa;
+    color: #24313f;
+}
+
+main { min-height: calc(100vh - 138px); }
+
+.hero {
+    background: linear-gradient(120deg, rgba(24, 35, 47, .96), rgba(38, 57, 73, .86)), url('https://images.unsplash.com/photo-1487754180451-c456f719a1fc?auto=format&fit=crop&w=1600&q=80') center/cover;
+}
+
+.btn-danger, .bg-danger { background-color: var(--sto-red) !important; border-color: var(--sto-red) !important; }
+.btn-danger:hover, .btn-danger:focus { background-color: #95121e !important; border-color: #95121e !important; }
+.navbar-brand { letter-spacing: .02em; }
+.card { border-radius: 1rem; }
+.table > :not(caption) > * > * { padding: .85rem 1rem; }
